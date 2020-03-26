@@ -1,3 +1,5 @@
+let url = 'https://kuwarrdua.github.io/JSlab4/weird.json';
+
 function useAsynchronous(url,callback){
 	let xhr = new XMLHttpRequest();
  	xhr.open('GET', url);
@@ -15,7 +17,7 @@ function weirdOffers(jsonObj){
 		let p2 = document.createElement('p');
 		let ul = document.createElement('ul');
 
-		img.setAttribute('src', url + weirdDeals[i].image);
+		img.setAttribute('src', 'https://kuwarrdua.github.io/JSlab4/images/' + weirdDeals[i].image);
 		img.setAttribute('alt',weirdDeals[i].image);
 		h2.textContent = weirdDeals[i].name;
 		p1.textContent = 'Price '+ weirdDeals[i].price;

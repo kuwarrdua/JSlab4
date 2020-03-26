@@ -1,4 +1,3 @@
-let url = 'https://kuwarrdua.github.io/JSlab4/weird.json';
 
 function useAsynchronous(url,callback){
 	let xhr = new XMLHttpRequest();
@@ -32,3 +31,5 @@ function weirdOffers(jsonObj){
 
 	}
 }
+
+useAsynchronous('https://kuwarrdua.github.io/JSlab4/weird.json',weirdOffers);

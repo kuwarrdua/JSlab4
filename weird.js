@@ -3,7 +3,13 @@ function useAsynchronous(url,callback){
 	let xhr = new XMLHttpRequest();
  	xhr.open('GET', url);
  	xhr.send();
+ 	xhr.onload = function(){
+	let weird = xhr.response;
+	console.log(weird);
+	weirdOffers(weird);
+};
 }
+
 
 function weirdOffers(jsonObj){
 	let weirdDeals = jsonObj.weirdDeals;

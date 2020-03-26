@@ -1,0 +1,34 @@
+{
+	"weirdDeals" : [
+		{
+			"name": "A Home Mushroom Farm",
+			"price": 22.85,
+			"details": "Now you can grow your own fungus right at home—and not in between your toes!",
+			"image": "image1.jpg"
+		},
+		{
+			"name": "A Cat Butt Tissue Holder",
+			"price": 34.94,
+			"details": "This seems like the nicest thing to be plucked from a cat's rear since, well, ever",
+			"image": "image2.jpg"
+		},
+		{
+			"name": "A Bacon-scented Mustache",
+			"price": 4.07,
+			"details": "It has scent hidden in an inconspicuous piece of facial hair... LOL",
+			"image": "image3.jpg"
+		},
+		{
+			"name": "A Cat Carrier Dress",
+			"price": 16.99,
+			"details": "This dress has a cash pouch if you need to keep your cat closer",
+			"image": "image4.jpg"
+		},
+		{
+			"name": "A Dog Wig",
+			"price": 9.57,
+			"details": "Even dogs need to look stylish.. WHATSAYY!!. So it can help them get that look",
+			"image": "image5.jpg"
+		}
+	]
+}
